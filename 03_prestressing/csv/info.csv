@@ -1,0 +1,24 @@
+Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,EffektiveBreite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
+0,mesh_b_eff,b_eff,mesh,concrete,0,0,0,0,0,1,0,0,0,0,0,0
+1,mesh_beam,Balken,mesh,concrete,1,0,1,0,0,0,0,0,0,0,0,0
+2,lines_bending_moment,Biegemoment qualitativ,lines,orange,0,0,0,1,0,0,0,0,0,0,0,0
+3,lines_cable,Spannglied,lines,blue,0,0,0,0,0,0,1,1,1,1,1,0
+4,lines_cable_geometry,Spannglied Bemaßung,lines,white,0,0,0,0,0,0,0,1,0,0,0,0
+5,mesh_columns,Stützen,mesh,concrete,1,0,1,1,0,1,1,1,0,0,0,1
+6,mesh_cross_section,Querschnitt ,mesh,concrete,0,1,0,0,0,0,0,0,0,0,0,0
+7,mesh_cross_section_b_eff,Querschnitt mit effektiver Breite,mesh,concrete,0,0,0,0,1,0,0,0,0,0,0,0
+8,arrow_diagram_axes,Achsen Diagramm,arrows,white,0,0,0,0,0,0,0,0,0,1,1,0
+9,lines_diagram_complete,Diagramm komplett,lines,white,0,0,0,0,0,0,0,0,0,0,1,0
+10,lines_diagram_Keileinzug,Diagramm Keileinzug,lines,white,0,0,0,0,0,0,0,0,0,1,0,0
+11,lines_dimensions_delta_P,Bemaßung Spannkraftverluste,lines,white,0,0,0,0,0,0,0,0,1,0,1,0
+12,mesh_long_sectiion,Längsschnitt,mesh,concrete,0,0,0,1,0,0,1,1,0,0,0,0
+13,lines_neutral_axis,Schwerpunkt,lines,white,0,0,0,1,0,0,1,1,1,1,1,0
+14,mesh_slab,Platte,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0,0
+15,mesh_supports,Auflager,mesh,concrete,1,0,1,1,0,1,1,1,0,0,0,1
+16,arrow_X1,X1,arrows,red,0,0,0,0,0,0,0,0,0,0,0,0
+17,arrow_coord_sys,Koordinatensystem,arrows,white,1,1,1,1,1,1,1,1,1,1,1,1
+18,mesh_hor_beams,Querträger,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0,0
+19,mesh_slab_trans,Platte Transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
+20,mesh_beam_trans,Träger transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
+21,mesh_hor_beams_trans,Querträger transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,1
+22,lines_2_cable,Spannkabel Ende,lines,blue,0,0,0,0,0,0,0,0,0,0,0,1
