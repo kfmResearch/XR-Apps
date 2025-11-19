@@ -1,24 +1,24 @@
-﻿index;name;type;material;display_name_german
-0;mesh_b_eff;mesh;concrete;b_eff
-1;mesh_beam;mesh;concrete;Balken
-2;lines_bending_moment;lines;orange;Biegemoment qualitativ
-3;lines_cable;lines;blue;Spannglied
-4;lines_cable_geometry;lines;white;Spannglied Bemaßung
-5;mesh_columns;mesh;concrete;Stützen
-6;mesh_cross_section;mesh;concrete;Querschnitt 
-7;mesh_cross_section_b_eff;mesh;concrete;Querschnitt mit effektiver Breite
-8;arrow_diagram_axes;arrows;white;Achsen Diagramm
-9;lines_diagram_complete;lines;white;Diagramm komplett
-10;lines_diagram_Keileinzug;lines;white;Diagramm Keileinzug
-11;lines_dimensions_delta_P;lines;white;Bemaßung Spannkraftverluste
-12;mesh_long_sectiion;mesh;concrete;Längsschnitt
-13;lines_neutral_axis;lines;white;Schwerpunkt
-14;mesh_slab;mesh;concrete;Platte
-15;mesh_supports;mesh;concrete;Auflager
-16;arrow_X1;arrows;red;X1
-17;arrow_coord_sys;arrows;white;Koordinatensystem
-18;mesh_hor_beams;mesh;concrete;Querträger
-19;mesh_slab_trans;mesh;transparent;Platte Transparent
-20;mesh_beam_trans;mesh;transparent;Träger transparent
-21;mesh_hor_beams_trans;mesh;transparent;Querträger transparent
-22;lines_2_cable;lines;blue;Spannkabel Ende
+﻿index,name,type,material,display_name_german
+0,mesh_b_eff,mesh,concrete,b_eff
+1,mesh_beam,mesh,concrete,Balken
+2,lines_bending_moment,lines,orange,Biegemoment qualitativ
+3,lines_cable,lines,blue,Spannglied
+4,lines_cable_geometry,lines,white,Spannglied Bemaßung
+5,mesh_columns,mesh,concrete,Stützen
+6,mesh_cross_section,mesh,concrete,Querschnitt 
+7,mesh_cross_section_b_eff,mesh,concrete,Querschnitt mit effektiver Breite
+8,arrow_diagram_axes,arrows,white,Achsen Diagramm
+9,lines_diagram_complete,lines,white,Diagramm komplett
+10,lines_diagram_Keileinzug,lines,white,Diagramm Keileinzug
+11,lines_dimensions_delta_P,lines,white,Bemaßung Spannkraftverluste
+12,mesh_long_sectiion,mesh,concrete,Längsschnitt
+13,lines_neutral_axis,lines,white,Schwerpunkt
+14,mesh_slab,mesh,concrete,Platte
+15,mesh_supports,mesh,concrete,Auflager
+16,arrow_X1,arrows,red,X1
+17,arrow_coord_sys,arrows,white,Koordinatensystem
+18,mesh_hor_beams,mesh,concrete,Querträger
+19,mesh_slab_trans,mesh,transparent,Platte Transparent
+20,mesh_beam_trans,mesh,transparent,Träger transparent
+21,mesh_hor_beams_trans,mesh,transparent,Querträger transparent
+22,lines_2_cable,lines,blue,Spannkabel Ende
