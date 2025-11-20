@@ -1,0 +1,24 @@
+index,name,type,material,display_name_german
+0,arrow_forceflow_sb,arrow,red,Kraftfluss
+1,arrow_load,arrow,red,Last
+2,arrow_AA,arrow,red,Last AA
+3,arrow_AA_point_sup,arrow,red,Last AA punktlager
+4,arrow_BB,arrow,red,Last BB
+5,arrow_CC,arrow,red,Last CC
+6,arrow_DD_EE,arrow,red,Last DDEE
+7,mesh_structure,mesh,concrete,System
+8,mesh_structure_trans,mesh,transparent,System transparent
+9,mesh_step_2,mesh,grey,Unterzüge
+10,mesh_AA,mesh,red,Last AA
+11,mesh_AA_point_sup,mesh,red,Last AA punktlager
+12,mesh_BB,mesh,red,Last BB
+13,mesh_CC,mesh,red,Last CC
+14,mesh_DD_EE,mesh,red,Last DDEE
+15,mesh_load_char,mesh,red,Last charakteristisch
+16,mesh_long_section_slab,mesh,concrete,Schnitt kurz
+17,mesh_short_section_slab,mesh,concrete,Schnitt lang
+18,mesh_reinforcement_min,mesh,steel,Mindestbewehrung
+19,mesh_reinforcement_BB,mesh,steel,Bewehrung BB
+20,mesh_reinforcement_CC,mesh,steel,Bewehrung CC
+21,mesh_reinforcement_DD,mesh,steel,Bewehrung DD
+22,mesh_reinforcement_EE,mesh,steel,Bewehrung EE
