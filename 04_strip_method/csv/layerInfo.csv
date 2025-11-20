@@ -8,7 +8,7 @@ index,name,type,material,display_name_german
 6,arrow_DD_EE,arrow,red,Last DDEE
 7,mesh_structure,mesh,concrete,System
 8,mesh_structure_trans,mesh,transparent,System transparent
-9,mesh_step_2,mesh,grey,Unterzüge
+9,mesh_step_2,mesh,grey,UnterzÃ¼ge
 10,mesh_AA,mesh,red,Last AA
 11,mesh_AA_point_sup,mesh,red,Last AA punktlager
 12,mesh_BB,mesh,red,Last BB
