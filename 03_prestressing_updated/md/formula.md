@@ -50,11 +50,11 @@ $I_b = \frac{h^3 b_w}{12} + 2 \cdot \frac{b_{\text{eff},i} \cdot t^3}{12} + b_w 
 ====
 05
 
-Die Kabelgeometrie orientiert sich am Momentenverlauf des Trägers. Für die genauere Berechnung des Verlaufs, sind die folgenden Herstellerangaben ausschlaggebend:  \\
-- Spanngliedfläche der Spanngliedeinheit VSL 6-19 Y1860 \\
-- Dimensionen des Stahlhüllrohr 90/97 \\
-- Minimaler Radius \\
-- Minimaler Randabstände bei der Verankerung und auf der freien Länge \\
+Die Kabelgeometrie orientiert sich am Momentenverlauf des Trägers. Für die genauere Berechnung des Verlaufs sind die folgenden Herstellerangaben ausschlaggebend:\\
+- Spanngliedfläche der Spanngliedeinheit VSL 6-19 Y1860\\
+- Dimensionen des Stahlhüllrohr 90/97\\
+- Minimaler Radius\\
+- Minimaler Randabstände bei der Verankerung und auf der freien Länge\\
 \\
 Für genaue Werte siehe die Musterlösung. 
 
