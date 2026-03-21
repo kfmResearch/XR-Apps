@@ -1,4 +1,4 @@
-Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,Effektive Breite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
+Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,Rahmensystem,Momentenverlauf,Effektive test Breite,Querschnittswerte,Kabelgeometrie,Kabelgeometrie,Spannkraftverluste,Keileinzug,Kraftverlauf,Gesamtsystem mit Kabeln
 0,mesh_b_eff,b_eff,mesh,concrete,0,0,0,0,0,1,0,0,0,0,0,0
 1,mesh_beam,Balken,mesh,concrete,1,0,1,0,0,0,0,0,0,0,0,0
 2,lines_bending_moment,Biegemoment qualitativ,lines,orange,0,0,0,1,0,0,0,0,0,0,0,0
