@@ -50,23 +50,13 @@ $I_b = \frac{h^3 b_w}{12} + 2 \cdot \frac{b_{\text{eff},i} \cdot t^3}{12} + b_w 
 ====
 05
 
-Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. Für die genauere Berechnung des Verlaufs, sind die folgenden Herstellerangaben ausschlaggebend:  
+Die Kabelgeometrie orientiert sich am Momentenverlauf des Trägers. Für die genauere Berechnung des Verlaufs, sind die folgenden Herstellerangaben ausschlaggebend:  
+- Spanngliedfläche der Spanngliedeinheit VSL 6-19 Y1860
+- Dimensionen des Stahlhüllrohr 90/97
+- Minimaler Radius
+- Minimaler Randabstände bei der Verankerung und auf der freien Länge
 
-- Spanngliedeinheit VSL 6-19 Y1860: \\
-  $A_p = 19 \cdot 150\,\text{mm}^2 = 2850\,\text{mm}^2$\\
-- Rundes Stahlhüllrohr 90/97:\\
- ($\oslash_i =90\text{mm}$,&nbsp;$\oslash_a=97 \text{mm}$,&nbsp;$\Delta s=12 \text{mm}$) \\
-
-- Min. Radius: $R_{\text{min}} = k \cdot \sqrt{P_{pk}\,[\text{MN}]} = 3 \cdot \sqrt{A_p f_{pk}\,[\text{MN}]} = 6.9\,\text{m}$\\
-
-- Minimaler Randabstand der Verankerung EC 30:\\
-
-    $R_4 = \frac{X}{2} + c_{\text{nom},p} - 10 = 270\,\text{mm}$\\
-    $X = 460\,\text{mm}$\\
-
-- Minimaler Randabstand auf freier Länge: \\
-
-    $R_F = c_{\text{nom},p} + \frac{97\,\text{mm}}{2} + 12\,\text{mm} = 111\,\text{mm}$
+Für genaue Werte siehe die Musterlösung. 
 
 ====
 06
