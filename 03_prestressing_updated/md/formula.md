@@ -1,6 +1,6 @@
 00
 
-TEst Test Test...   Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
+Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
 obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in x-Richtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
 
 ====
@@ -11,7 +11,7 @@ Im Folgenden werden die Kennwerte der verwendeten Baumaterialien aufgezeigt.
 Beton C30/37\\
 $f_{cd} = 20\,\text{MPa}$\\
 $E_c = 33.6\,\text{GPa}$\\
-\
+\\
 Spannstahl Y1860\\
 $A_p = 19.150\,\text{mm}^2$\\
 $f_{pk} = 1860\,\text{MPa}$\\
@@ -29,7 +29,7 @@ Um die Reibungsverluste auszugleichen wird ein Kabel von links (x = -17.5 m) und
 ====
 03
 
-Jetzt kann die effektive Breite des Trägers nach SIA 262 berechnet werden.
+Zunächst wird die effektive Breite des Trägers nach SIA 262 berechnet:
 
 
 $l_0 = 0.7 \cdot L = 14\,\text{m}$\
@@ -52,7 +52,7 @@ $I_b = \frac{h^3 b_w}{12} + 2 \cdot \frac{b_{\text{eff},i} \cdot t^3}{12} + b_w 
 
 Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. Für die genauere Berechnung des Verlaufs, sind die folgenden Herstellerangaben ausschlaggebend:  
 
-- Spanngliedeinheit VSL 6-19 Y1860, $A_p = 19.150\,\text{mm}^2 = 2850\,\text{mm}^2$
+- Spanngliedeinheit VSL 6-19 Y1860 ($A_p = 19.150\,\text{mm}^2 = 2850\,\text{mm}^2$)
 - Rundes Stahlhüllrohr 90/97 (Øᵢ = 90 mm, Øₐ = 97 mm, Δs = 12 mm)
 
 - Min. Radius: $R_{\text{min}} = k \cdot \sqrt{P_{pk}\,[\text{MN}]} = 3 \cdot \sqrt{A_p f_{pk}\,[\text{MN}]} = 6.9\,\text{m}$
