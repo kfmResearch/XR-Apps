@@ -58,8 +58,8 @@ Die Kabelgeometrie orientiert sich am Momentenverlauf des Trägers. Für die gen
 
 - Minimaler Radius
 
-- Minimaler Randabstände bei der Verankerung und auf der freien Länge
-\\
+- Minimale Randabstände bei der Verankerung und auf der freien Länge
+
 Für genaue Werte siehe die Musterlösung. 
 
 ====
@@ -76,7 +76,8 @@ $b = \frac{2 R_{\text{min}} \cdot f_0}{a} = 1281\,\text{mm}$\
 $c = \frac{2 R_{\text{min}} \cdot f_0^2}{a^2} = 119\,\text{mm}$\
 $f = \frac{f_0 \cdot l^2}{4 \left(a^2 - 2 R_{\text{min}} \cdot f_0 \right)} = 210\,\text{mm}$\
 
-Innenfeld: 
+
+Innenfeld:\\
 
 $F_0 = h - 2 R_F = 978\,\text{mm}$\
 $L = 20000\,\text{mm}$\
