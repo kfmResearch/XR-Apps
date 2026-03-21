@@ -55,7 +55,7 @@ Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. F�
 - Spanngliedeinheit VSL 6-19 Y1860: \\
   $A_p = 19 \cdot 150\,\text{mm}^2 = 2850\,\text{mm}^2$\\
 - Rundes Stahlhüllrohr 90/97:\\
- (Øᵢ = 90 mm, Øₐ = 97 mm, Δs = 12 mm) \\
+ ($\oslash_i = 90 \text{mm}$, $\oslash_a = 97 \text{mm}$, Δs = 12 mm) \\
 
 - Min. Radius: $R_{\text{min}} = k \cdot \sqrt{P_{pk}\,[\text{MN}]} = 3 \cdot \sqrt{A_p f_{pk}\,[\text{MN}]} = 6.9\,\text{m}$\\
 
