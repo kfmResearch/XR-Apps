@@ -81,7 +81,7 @@ Innenfeld:\\
 
 $F_0 = h - 2 R_F = 978\,\text{mm}$\\
 $L = 20000\,\text{mm}$\\
-$B = \frac{4 R_{\text{mi  n}} \cdot F_0}{L} = 1350\,\text{mm}$\\
+$B = \frac{4 R_{\text{min}} \cdot F_0}{L} = 1350\,\text{mm}$\\
 $C = \frac{8 R_{\text{min}} \cdot F_0^2}{L^2} = 132\,\text{mm}$\\
 $F = \frac{F_0 \cdot L^2}{L^2 - 8 R_{\text{min}} \cdot F_0} = 1131\,\text{mm}$\\
 
