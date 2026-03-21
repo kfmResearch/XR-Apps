@@ -52,17 +52,19 @@ $I_b = \frac{h^3 b_w}{12} + 2 \cdot \frac{b_{\text{eff},i} \cdot t^3}{12} + b_w 
 
 Die Kabelgeometrie orientiert sich ungefähr am Momentenverlauf des Trägers. Für die genauere Berechnung des Verlaufs, sind die folgenden Herstellerangaben ausschlaggebend:  
 
-- Spanngliedeinheit VSL 6-19 Y1860 ($A_p = 19 \cdot 150\,\text{mm}^2 = 2850\,\text{mm}^2$)\\
-- Rundes Stahlhüllrohr 90/97 (Øᵢ = 90 mm, Øₐ = 97 mm, Δs = 12 mm)
+- Spanngliedeinheit VSL 6-19 Y1860: \\
+  $A_p = 19 \cdot 150\,\text{mm}^2 = 2850\,\text{mm}^2$\\
+- Rundes Stahlhüllrohr 90/97:\\
+ (Øᵢ = 90 mm, Øₐ = 97 mm, Δs = 12 mm) \\
 
-- Min. Radius: $R_{\text{min}} = k \cdot \sqrt{P_{pk}\,[\text{MN}]} = 3 \cdot \sqrt{A_p f_{pk}\,[\text{MN}]} = 6.9\,\text{m}$
+- Min. Radius: $R_{\text{min}} = k \cdot \sqrt{P_{pk}\,[\text{MN}]} = 3 \cdot \sqrt{A_p f_{pk}\,[\text{MN}]} = 6.9\,\text{m}$\\
 
-- Minimaler Randabstand der Verankerung EC 30:
+- Minimaler Randabstand der Verankerung EC 30:\\
 
-    $R_4 = \frac{X}{2} + c_{\text{nom},p} - 10 = 270\,\text{mm}$\
-    $X = 460\,\text{mm}$\
+    $R_4 = \frac{X}{2} + c_{\text{nom},p} - 10 = 270\,\text{mm}$\\
+    $X = 460\,\text{mm}$\\
 
-- Minimaler Randabstand auf freier Länge:
+- Minimaler Randabstand auf freier Länge: \\
 
     $R_F = c_{\text{nom},p} + \frac{97\,\text{mm}}{2} + 12\,\text{mm} = 111\,\text{mm}$
 
