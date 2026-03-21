@@ -67,23 +67,23 @@ Für genaue Werte siehe die Musterlösung.
 
 Die Berechnung der Kabelgeometrie erfolgt anhand der Herstellerangaben des Trägers und der Trägergeometrie. 
 
-Randfeld: 
+Randfeld:\\
 
-$k = 0$\
-$f_0 = h - \zeta_c - R_F = 696\,\text{mm}$\
-$l = a = 7500\,\text{mm}$\
-$b = \frac{2 R_{\text{min}} \cdot f_0}{a} = 1281\,\text{mm}$\
-$c = \frac{2 R_{\text{min}} \cdot f_0^2}{a^2} = 119\,\text{mm}$\
-$f = \frac{f_0 \cdot l^2}{4 \left(a^2 - 2 R_{\text{min}} \cdot f_0 \right)} = 210\,\text{mm}$\
+$k = 0$\\
+$f_0 = h - \zeta_c - R_F = 696\,\text{mm}$\\
+$l = a = 7500\,\text{mm}$\\
+$b = \frac{2 R_{\text{min}} \cdot f_0}{a} = 1281\,\text{mm}$\\
+$c = \frac{2 R_{\text{min}} \cdot f_0^2}{a^2} = 119\,\text{mm}$\\
+$f = \frac{f_0 \cdot l^2}{4 \left(a^2 - 2 R_{\text{min}} \cdot f_0 \right)} = 210\,\text{mm}$\\
 
 
 Innenfeld:\\
 
-$F_0 = h - 2 R_F = 978\,\text{mm}$\
-$L = 20000\,\text{mm}$\
-$B = \frac{4 R_{\text{min}} \cdot F_0}{L} = 1350\,\text{mm}$\
-$C = \frac{8 R_{\text{min}} \cdot F_0^2}{L^2} = 132\,\text{mm}$\
-$F = \frac{F_0 \cdot L^2}{L^2 - 8 R_{\text{min}} \cdot F_0} = 1131\,\text{mm}$\
+$F_0 = h - 2 R_F = 978\,\text{mm}$\\
+$L = 20000\,\text{mm}$\\
+$B = \frac{4 R_{\text{min}} \cdot F_0}{L} = 1350\,\text{mm}$\\
+$C = \frac{8 R_{\text{min}} \cdot F_0^2}{L^2} = 132\,\text{mm}$\\
+$F = \frac{F_0 \cdot L^2}{L^2 - 8 R_{\text{min}} \cdot F_0} = 1131\,\text{mm}$\\
 
 Die Umlenkkräfte im Randfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{33.5 \text{m}}$ sind etwas grösser als diejenigen im Mittelfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{44.2 \text{m}}$.
 
