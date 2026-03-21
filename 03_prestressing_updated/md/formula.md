@@ -1,17 +1,17 @@
 00
 
 Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
-obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in xRichtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
+obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in x-Richtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
 
 ====
 01
 
 Im Folgenden werden die Kennwerte der verwendeten Baumaterialien aufgezeigt.    
 
-Beton\
-C30/37\
-$f_{cd} = 20\,\text{MPa}$\
-$E_c = 33.6\,\text{GPa}$\
+Beton: \
+C30/37\\
+$f_{cd} = 20\,\text{MPa}$\\
+$E_c = 33.6\,\text{GPa}$\\
 \
 Spannstahl\
 Y1860\
