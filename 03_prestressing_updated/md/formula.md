@@ -76,7 +76,7 @@ $b = \frac{2 R_{\text{min}} \cdot f_0}{a} = 1281\,\text{mm}$\\
 $c = \frac{2 R_{\text{min}} \cdot f_0^2}{a^2} = 119\,\text{mm}$\\
 $f = \frac{f_0 \cdot l^2}{4 \left(a^2 - 2 R_{\text{min}} \cdot f_0 \right)} = 210\,\text{mm}$\\
 
-
+\\
 Innenfeld:\\
 
 $F_0 = h - 2 R_F = 978\,\text{mm}$\\
@@ -90,38 +90,38 @@ Die Umlenkkräfte im Randfeld $u = \frac{8 \cdot P\cdot f}{l^2} = \frac{P}{33.5 
 ====
 07
 
-Die Spannkraft reduziert sich über den Verlauf des Kabels. Dies liegt an Verlusten durch Reibung und den Keileinzug. \
-Verluste infolge Reibung: $\mu = 0.18,\Delta \phi = 5 \text{mrad/m}$
+Die Spannkraft reduziert sich über den Verlauf des Kabels. Dies liegt an Verlusten durch Reibung und den Keileinzug. \\
+Verluste infolge Reibung: $\mu = 0.18,\Delta \phi = 5 \text{mrad/m}$\\
 
 
 
-$\delta \varphi_x = \frac{2 \left| e_j - e_{j-1} \right|}{x_j - x_{j-1}}$\
-$\varphi_x = \sum \delta \varphi_x$\
-$P(x) = P_{\text{max}} \cdot e^{-\mu (\varphi_x + \Delta \varphi \cdot x)}$\
+$\delta \varphi_x = \frac{2 \left| e_j - e_{j-1} \right|}{x_j - x_{j-1}}$\\
+$\varphi_x = \sum \delta \varphi_x$\\
+$P(x) = P_{\text{max}} \cdot e^{-\mu (\varphi_x + \Delta \varphi \cdot x)}$\\
 $P_{\text{max}} = 0.75 \, A_p f_{pk} = 3976\,\text{kN}$
 
 Für die genaue Berechnung der Spannkraftverluste, siehe Musterlösung der Hausübung 2. 
 
-Am passiven Ende verbleiben nach Abzug der Reibungsverluste knapp 74% der maximalen Spannkraft am
+Am passiven Ende verbleiben nach Abzug der Reibungsverluste knapp 74\% der maximalen Spannkraft am
 aktiven Ende.
 
 ====
 08
 
-Verluste infolge Keileinzug: $\Delta = 6 \text{mm}$ \
-Der Keileinzug beeinflusst das aktive Ende bis über den ersten Wendepunkt des Spannglieds.\
+Verluste infolge Keileinzug von $\Delta = 6 \text{mm}$ \\
+Der Keileinzug beeinflusst das aktive Ende bis über den ersten Wendepunkt des Spannglieds.\\
 
-$\Delta P = 2 \left( l_1 \frac{dP_1}{dx} + l_2 \frac{dP_2}{dx} \right)$\
-$\Delta P_2 = 2 \cdot l_2 \cdot \frac{dP_2}{dx}$\
-$\Delta = \frac{l_1 \left( \Delta P + \Delta P_2 \right)}{2 E_p A_p} + \frac{l_2 \cdot \Delta P_2}{2 E_p A_p} \overset{!}{=} 6\,\text{mm}$
+$\Delta P = 2 \left( l_1 \frac{dP_1}{dx} + l_2 \frac{dP_2}{dx} \right)$\\
+$\Delta P_2 = 2 \cdot l_2 \cdot \frac{dP_2}{dx}$\\
+$\Delta = \frac{l_1 \left( \Delta P + \Delta P_2 \right)}{2 E_p A_p} + \frac{l_2 \cdot \Delta P_2}{2 E_p A_p} \overset{!}{=} 6\,\text{mm}$\\
 
 Aus den drei Gleichungen mit den Unbekannten $l_2$, $\Delta P$ und $\Delta P_2$ folgt:
 
-$l_2 = 1.70 \text{m}$\
-$\Delta P = 643 \text{kN}$\
+$l_2 = 1.70 \text{m}$\\
+$\Delta P = 643 \text{kN}$\\
 $\Delta P_2 = 339 \text{kN}$
 
-$\frac{\Delta P_2}{dx}$ entspricht der gemittelten Änderung der Vorspannkraft zwischen dem ersten ud zweiten Wendepunkt. 
+$\frac{\Delta P_2}{dx}$ entspricht der gemittelten Änderung der Vorspannkraft zwischen dem ersten und zweiten Wendepunkt. 
 
 ====
 09
