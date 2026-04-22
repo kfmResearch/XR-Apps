@@ -22,3 +22,4 @@
 21,mesh_reinforcement_CC,Bewehrung CC,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
 22,mesh_reinforcement_DD,Bewehrung DD,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
 23,mesh_reinforcement_EE,Bewehrung EE,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+24,mesh_slab_new,Bewehrung EE,mesh,steel,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
