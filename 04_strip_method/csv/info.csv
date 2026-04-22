@@ -7,7 +7,7 @@
 6,arrow_CC,Last CC,arrows,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
 7,arrow_DD_EE,Last DDEE,arrows,red,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
 8,mesh_structure,System,mesh,concrete,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-9,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+9,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
 10,mesh_step_2,Unterzüge,mesh,blue,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 11,mesh_AA,Last AA,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 12,mesh_AA_point_sup,Last AA punktlager,mesh,red,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
