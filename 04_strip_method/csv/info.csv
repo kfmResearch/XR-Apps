@@ -5,8 +5,8 @@
 4,arrow_AA_point_sup,Last AA punktlager,arrows,red,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 5,arrow_BB,Last BB,arrows,red,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 6,arrow_CC,Last CC,arrows,red,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-7,arrow_DD,Last DD,arrows,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0
-8,arrow_EE,Last E-E,arrows,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0
+7,arrow_DD,Last DD,arrows,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+8,arrow_EE,Last E-E,arrows,red,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
 9,mesh_structure,System,mesh,concrete,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 10,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 11,mesh_step_2,Unterzüge,mesh,blue,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -14,8 +14,8 @@
 13,mesh_AA_point_sup,Last AA punktlager,mesh,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 14,mesh_BB,Last BB,mesh,red,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 15,mesh_CC,Last CC,mesh,red,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-16,mesh_DD,Last DD,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,1,0,0,0,0
-17,mesh_EE,Last E-E,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0
+16,mesh_DD,Last DD,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
+17,mesh_EE,Last E-E,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
 18,mesh_load_char,Last charakteristisch,mesh,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 19,mesh_slab_section_AA,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 20,mesh_slab_section_BB,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
