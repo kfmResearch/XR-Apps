@@ -15,7 +15,7 @@
 14,mesh_CC,Last CC,mesh,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
 15,mesh_DD_EE,Last DDEE,mesh,red,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
 16,mesh_load_char,Last charakteristisch,mesh,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-17,mesh_long_section_slab,Schnitt kurz,mesh,concrete,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+17,mesh_long_section_slab,Schnitt kurz,mesh,red,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 18,mesh_short_section_slab,Schnitt lang,mesh,concrete,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0
 19,mesh_reinforcement_min,Mindestbewehrung,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
 20,mesh_reinforcement_BB,Bewehrung BB,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
