@@ -1,27 +1,27 @@
-﻿Index,layername,layernamegerman,contenttype,material,Übersicht Gesamtsystem Test,Baustoffe,Streifenmethode nach Hillerberg,Einwirkungen,Abtrag der Kräfte,Kraftfluss vom Strongband 3 in die Strongbands 1 & 2,Kraftfluss vom SB 1\&2 in die Lager,Schnittkräfte Schnitt A-A,Schnittkräfte Schnitt A-A,Schnittkräfte Schnitt C-C,Schnittkräfte Schnitt B-B,Schnittkräfte Schnitt D-D,Schnittkräfte Schnitt E-E,Mindestbewehrung,Biegenachweis Schnitt A-A,Biegenachweise Schnitt C-C,Biegenachweise Schnitt D-D,Biegenachweise Schnitt E-E,Biegenachweise Schnitt B-B,Querkrafttragsicherheit,Bewehrungverteilung
-1,arrow_forceflow_sb,Kraftfluss,arrows,red,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-2,arrow_load,Last,arrows,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-3,arrow_AA,Last AA,arrows,red,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-4,arrow_AA_point_sup,Last AA punktlager,arrows,red,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-5,arrow_BB,Last BB,arrows,red,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-6,arrow_CC,Last CC,arrows,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-7,arrow_DD_EE,Last DDEE,arrows,red,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-8,mesh_structure,System,mesh,concrete,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-9,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1
-10,mesh_step_2,Unterzüge,mesh,blue,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-11,mesh_AA,Last AA,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
-12,mesh_AA_point_sup,Last AA punktlager,mesh,red,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-13,mesh_BB,Last BB,mesh,red,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-14,mesh_CC,Last CC,mesh,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
-15,mesh_DD_EE,Last DDEE,mesh,red,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
-16,mesh_load_char,Last charakteristisch,mesh,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-17,mesh_slab_section_AA,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-18,mesh_slab_section_BB,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-19,mesh_slab_section_CC,Schnitt lang,mesh,green_opaque,0,0,0,0,0,0,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-20,mesh_slab_section_DD,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-21,mesh_slab_section_EE,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-22,mesh_reinforcement_min,Mindestbewehrung,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
-23,mesh_reinforcement_BB,Bewehrung BB,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
-24,mesh_reinforcement_CC,Bewehrung CC,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
-25,mesh_reinforcement_DD,Bewehrung DD,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
-26,mesh_reinforcement_EE,Bewehrung EE,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+﻿Index,layername,layernamegerman,contenttype,material,Übersicht Gesamtsystem Test1,Baustoffe,Streifenmethode nach Hillerberg,Einwirkungen,Abtrag der Kräfte,Kraftfluss Schnitt A-A,Kraftfluss Schnitt C-C,Kraftfluss Schnitt B-B,Kraftfluss Strongbands 1und 2,Schnittkräfte Schnitt A-A,Schnittkräfte Schnitt A-A,Schnittkräfte Schnitt C-C,Schnittkräfte Schnitt B-B,Schnittkräfte Schnitt D-D,Schnittkräfte Schnitt E-E,Mindestbewehrung,Biegenachweis Schnitt A-A,Biegenachweise Schnitt C-C,Biegenachweise Schnitt D-D,Biegenachweise Schnitt E-E,Biegenachweise Schnitt B-B,Querkrafttragsicherheit,Bewehrungverteilung
+1,arrow_forceflow_sb,Kraftfluss,arrows,red,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2,arrow_load,Last,arrows,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3,arrow_AA,Last AA,arrows,red,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+4,arrow_AA_point_sup,Last AA punktlager,arrows,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+5,arrow_BB,Last BB,arrows,red,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+6,arrow_CC,Last CC,arrows,red,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+7,arrow_DD_EE,Last DDEE,arrows,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+8,mesh_structure,System,mesh,concrete,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+9,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1
+10,mesh_step_2,Unterzüge,mesh,blue,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+11,mesh_AA,Last AA,mesh,red,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+12,mesh_AA_point_sup,Last AA punktlager,mesh,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+13,mesh_BB,Last BB,mesh,red,0,0,0,0,0,1,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+14,mesh_CC,Last CC,mesh,red,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+15,mesh_DD_EE,Last DDEE,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0
+16,mesh_load_char,Last charakteristisch,mesh,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+17,mesh_slab_section_AA,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+18,mesh_slab_section_BB,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+19,mesh_slab_section_CC,Schnitt lang,mesh,green_opaque,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
+20,mesh_slab_section_DD,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+21,mesh_slab_section_EE,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+22,mesh_reinforcement_min,Mindestbewehrung,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
+23,mesh_reinforcement_BB,Bewehrung BB,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+24,mesh_reinforcement_CC,Bewehrung CC,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
+25,mesh_reinforcement_DD,Bewehrung DD,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
+26,mesh_reinforcement_EE,Bewehrung EE,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
