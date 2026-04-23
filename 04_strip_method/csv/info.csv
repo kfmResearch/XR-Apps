@@ -17,11 +17,11 @@
 16,mesh_DD,Last DD,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0
 17,mesh_EE,Last E-E,mesh,red,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0
 18,mesh_load_char,Last charakteristisch,mesh,red,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-19,mesh_slab_section_AA,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-20,mesh_slab_section_BB,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-21,mesh_slab_section_CC,Schnitt lang,mesh,green_opaque,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
-22,mesh_slab_section_DD,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
-23,mesh_slab_section_EE,Schnitt kurz,mesh,green_opaque,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+19,mesh_slab_section_AA,Schnitt A-A,mesh,green_opaque,0,0,0,0,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+20,mesh_slab_section_BB,Schnitt B-B,mesh,green_opaque,0,0,0,0,0,0,0,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+21,mesh_slab_section_CC,Schnitt C-C,mesh,green_opaque,0,0,0,0,0,0,1,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,0
+22,mesh_slab_section_DD,Schnitt D-D,mesh,green_opaque,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
+23,mesh_slab_section_EE,Schnitt E-E,mesh,green_opaque,0,0,0,0,0,0,0,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0
 24,mesh_reinforcement_min,Mindestbewehrung,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1
 25,mesh_reinforcement_BB,Bewehrung BB,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
 26,mesh_reinforcement_CC,Bewehrung CC,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
