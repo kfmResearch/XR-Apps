@@ -1,5 +1,5 @@
 ﻿Index,layername,layernamegerman,contenttype,material,Übersicht Gesamtsystem,Baustoffe,Streifenmethode nach Hillerberg,Einwirkungen,Abtrag der Kräfte,Kraftfluss Schnitt A-A,Kraftfluss Schnitt C-C,Kraftfluss Schnitt B-B,Kraftfluss Strongbands 1und 2,Schnittkräfte Schnitt A-A,Schnittkräfte Schnitt A-A,Schnittkräfte Schnitt C-C,Schnittkräfte Schnitt B-B,Schnittkräfte Schnitt D-D,Schnittkräfte Schnitt E-E,Mindestbewehrung,Biegenachweis Schnitt A-A,Biegenachweise Schnitt C-C,Biegenachweise Schnitt D-D,Biegenachweise Schnitt E-E,Biegenachweise Schnitt B-B,Querkrafttragsicherheit,Bewehrungverteilung
-1,arrow_forceflow_sb,Kraftfluss,arrows,red,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1,mesh_forceflow,Kraftfluss,mesh,red,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2,mesh_structure,System,mesh,concrete,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 3,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 4,mesh_step_2,Unterzüge,mesh,green_opaque,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
