@@ -36,6 +36,7 @@ Um die erweiterte Streifenmethode aufzuzeigen, werden noch die Flächenlasten ü
 
 ====
 03 
+Zunächst erfolgt die Darstellung der Einwirkungen auf die Platte: 
 
 Eigengewicht:
 $$
@@ -91,27 +92,66 @@ Richtung und 30% in x-Richtung in das Auflager und die versteckten Unterzüge
 ====
 05 
 
-In der gewählten Modellvorstellung liegt der Strongband 3 (x - Richtung) auf den
-Strongbands 1&2 auf. Auf ihn wirkt die Flächenlast gemäss dem Verteilschlüssel
-($0.3 \cdot q_{d}$) sowie die Auflagerkraft aus dem Schnitt C-C mit umgekehrtem Vorzeichen
-als Belastung: $q_c$.\
-Das statische System des Schnitts B-B zeigt wiederum, wie die Belastung der Strongbands 1&2 ($q_{B,r}\text{ und }q_{B,m}$) berechnet werden.
-
+Hier gezeigt ist das statische System für den Lastabtrag in Schnitt A-A. Diese gilt analog für die Platte in x-Richtung ausserhalb von Strongband 3.  
 
 ====
 06
 
-Als Letztes werden die Strongbands in y-Richtung betrachtet. Sie erfahren ihren Anteil der Flächenlast (0.7 $q_{d}$), sowie Auflagerkräfte aus den Schnitten A-A und B-B.
+Hier gezeigt ist das statische System für den Lastabtrag in Schnitt C-C. Diese gilt analog für die Platte in y-Richtung ausserhalb der Strongbands 1 und 2.  
 
 
 ====
 07 
 
-Die Schnitte A-A – E-E werden jetzt Schritt für Schritt durchgerechnet. Zuerst werden die Schnittkräfte aus Schnitt A-A mit der Kraftmethode ermittelt (siehe Musterlösung). Es handelt sich dabei um die elastischen Schnittgrössen, es wäre aber auch möglich, plastisch zu rechnen. Dabei werden die 1m breiten Strongbands als Punktauflager modelliert. 
-Es resultieren folgende Schnittkräfte für die Annahme der strongbands als Punktauflager. 
+In der gewählten Modellvorstellung liegt der Strongband 3 (x - Richtung) auf den
+Strongbands 1 und 2 auf. Auf ihn wirkt die Flächenlast gemäss dem Verteilschlüssel
+($0.3 \cdot q_{d}$) sowie die Auflagerkraft aus dem Schnitt C-C mit umgekehrtem Vorzeichen
+als Belastung: $q_c$.\
+
+Die Auflagerkräfte dieses Strongbands werden als Belastung auf die Strongbands 1 und 2 angesetzt.
 
 ====
 08
+
+Als Letztes werden die Strongbands 1 und 2 in y-Richtung betrachtet (Schnitte D-D und E-E). Sie erfahren ihren Anteil der Flächenlast (0.7 $q_{d}$), sowie Auflagerkräfte aus den Schnitten A-A und B-B (Strongband 3).
+
+
+====
+09
+
+Die Schnitte A-A – E-E werden jetzt Schritt für Schritt durchgerechnet. Zuerst werden die Schnittkräfte aus Schnitt A-A mit der Kraftmethode ermittelt (siehe Musterlösung). Es handelt sich dabei um die elastischen Schnittgrössen, es wäre aber auch möglich, plastisch zu rechnen. Zunächst werden die 1m breiten Strongbands als Punktauflager modelliert, wobei folgende betragsmässig maximale Schnittgrössen resultieren: 
+
+$$
+m_d^+ = 6.1\,\text{kN} (in Feldmitte)
+$$
+
+$$
+m_d^- = -10.9\,\text{kN} (am Mittelauflager)
+$$
+
+$$
+v_{d,max} = 13.7\,\text{kN} (am Mittelauflager)
+$$
+
+
+====
+10
+
+Für den Fall, dass die versteckten Unterzüge als Flächenlager mit gleichmässiger Pressung berücksichtigt werden, resultieren die folgenden Schnittgrössen: 
+
+$$
+m_d^+ = 6.1\,\text{kN} (in Feldmitte)
+$$
+
+$$
+m_d^- = -7.3\,\text{kN} (am Mittelauflager)
+$$
+
+$$
+v_{d,max} = 13.7\,\text{kN} (am Mittelauflager)
+$$
+
+
 
 Es resultieren folgende Schnittkräfte unter Berücksichtigung der versteckten Unterzüge als Flächenlager mit gleichmässiger Pressung:
 
@@ -132,17 +172,11 @@ q_{4,r} \cdot 1\,\text{m} \cdot l - 0.3 \cdot q_d \cdot \frac{(l + 0.5\,\text{m}
 + q_{4,m} \cdot \frac{(0.5\,\text{m})^2}{2} = -7.3\,\text{kN}
 $$
 
-====
-09
-
 Die Schnittkräfte im Schnitt C-C können wie folgt berechnet werden: 
 
 $$
 q_q = \frac{13\,\text{kN/m}^2 \cdot \frac{(5.5\,\text{m})^2}{2}}{5\,\text{m} \cdot 1\,\text{m}} = 39.3\,\text{kN/m}^2
 $$
-
-====
-10
 
 Die Schnittkräfte im Schnitt B-B können analog zum Schnitt A-A berechnet werden, wobei sie mit dem Faktor $r_{A \rightarrow B} = \frac{0.3 \cdot q_d + q_c}{0.3 \cdot q_d} = 8.0$
 multipliziert werden müssen. Für die Auflagerkräfte $q_{B,r}$ und $q_{B,m}$ muss dann jeweils $q_c$ abgezogen werden, da diese Kraft über den Flächenauflagern nicht wirkt.
