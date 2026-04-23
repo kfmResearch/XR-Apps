@@ -2,7 +2,7 @@
 1,arrow_forceflow_sb,Kraftfluss,arrows,red,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 2,mesh_structure,System,mesh,concrete,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 3,mesh_structure_trans,System transparent,mesh,transparent,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-4,mesh_step_2,Unterzüge,mesh,blue,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4,mesh_step_2,Unterzüge,mesh,green_opaque,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 5,mesh_AA,Last AA,mesh,red,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 6,mesh_AA_point_sup,Last AA punktlager,mesh,red,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 7,mesh_BB,Last BB,mesh,red,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
