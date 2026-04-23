@@ -122,7 +122,7 @@ Als Letztes werden die Strongbands 1 und 2 in y-Richtung betrachtet (Schnitte D-
 Die Schnitte A-A – E-E werden jetzt Schritt für Schritt durchgerechnet. Zuerst werden die Schnittkräfte aus Schnitt A-A mit der Kraftmethode ermittelt (siehe Musterlösung). Es handelt sich dabei um die elastischen Schnittgrössen, es wäre aber auch möglich, plastisch zu rechnen. Zunächst werden die 1m breiten Strongbands als Punktauflager modelliert, wobei folgende betragsmässig maximale Schnittgrössen resultieren: 
 
 
-$ m_d^+ = 6.1\,\text{kN} $ (in Feldmitte Test)
+$ m_d^+ = 6.1\,\text{kN} $ (in Feldmitte)
 
 $ m_d^- = -10.9\,\text{kN} $ (am Mittelauflager)
 
@@ -135,46 +135,44 @@ $ v_{d,max} = 13.7\,\text{kN} $ (am Mittelauflager)
 
 Für den Fall, dass die versteckten Unterzüge als Flächenlager mit gleichmässiger Pressung berücksichtigt werden, resultieren die folgenden Schnittgrössen: 
 
-$$
-m_d^+ = 6.1\,\text{kN} (in Feldmitte)
-$$
-
-$$
-m_d^- = -7.3\,\text{kN} (am Mittelauflager)
-$$
-
-$$
-v_{d,max} = 13.7\,\text{kN} (am Mittelauflager)
-$$
+$ m_d^+ = 6.1\,\text{kN} $ (in Feldmitte)
 
 
+$ m_d^- = -7.3\,\text{kN} $ (am Mittelauflager)
 
-Es resultieren folgende Schnittkräfte unter Berücksichtigung der versteckten Unterzüge als Flächenlager mit gleichmässiger Pressung:
+
+$ v_{d,max} = 13.7\,\text{kN/m} $ (am Mittelauflager)
 
 Die Flächenlasten der Strongbands lassen sich jeweils direkt aus der Punktauflagerkraft und der Breite der Strongbands berechnen:
 
 $$
-q_{4,r} = \frac{(8.7 + 2.8)\,\text{kN/m}}{1\,\text{m}} = 11.5\,\text{kN/m}^2
+q_{A,r} = \frac{(8.7 + 2.8)\,\text{kN/m}}{1\,\text{m}} = 11.5\,\text{kN/m}^2
 $$
 
 $$
-q_{4,m} = \frac{2 \cdot 13.7\,\text{kN/m}}{1\,\text{m}} = 27.4\,\text{kN/m}^2
+q_{A,m} = \frac{2 \cdot 13.7\,\text{kN/m}}{1\,\text{m}} = 27.4\,\text{kN/m}^2
 $$
 
-Das maximale Moment über dem Mittelauflager unter Berücksichtigung der Flächenpressung kann wie folgt berechnet werden:
+====
+11
+
+Im Schnitt C-C kann das maximale Moment wie folgt berechnet werden: 
 
 $$
-q_{4,r} \cdot 1\,\text{m} \cdot l - 0.3 \cdot q_d \cdot \frac{(l + 0.5\,\text{m})^2}{2}
-+ q_{4,m} \cdot \frac{(0.5\,\text{m})^2}{2} = -7.3\,\text{kN}
+m_c = \frac{13\,\text{kN/m}^2 \cdot \frac{(5.5\,\text{m})^2}{2}}{5\,\text{m} \cdot 1\,\text{m}} = 39.3\,\text{kN}
 $$
 
-Die Schnittkräfte im Schnitt C-C können wie folgt berechnet werden: 
+Die Querkrakt im massgebenden Schnitt beträgt 
 
 $$
-q_q = \frac{13\,\text{kN/m}^2 \cdot \frac{(5.5\,\text{m})^2}{2}}{5\,\text{m} \cdot 1\,\text{m}} = 39.3\,\text{kN/m}^2
+q_C = -26.3 \text{kN/m}
 $$
+
+====
+12
 
 Die Schnittkräfte im Schnitt B-B können analog zum Schnitt A-A berechnet werden, wobei sie mit dem Faktor $r_{A \rightarrow B} = \frac{0.3 \cdot q_d + q_c}{0.3 \cdot q_d} = 8.0$
+
 multipliziert werden müssen. Für die Auflagerkräfte $q_{B,r}$ und $q_{B,m}$ muss dann jeweils $q_c$ abgezogen werden, da diese Kraft über den Flächenauflagern nicht wirkt.
 
 $$
@@ -193,9 +191,8 @@ $$
 m_{i,B} = r_{A \rightarrow B} \cdot m_{i,A}
 $$
 
-
 ====
-11
+13
 
 Analog zum Vorgehen in Schnitt B–B können für D–D die Schnitt- und Auflagerkräfte von Schnitt C–C mit dem Faktor
 $r_{C \rightarrow D} = \frac{0.7 \cdot q_d + q_{A,r}}{0.7 \cdot q_d} = 1.88$
@@ -223,9 +220,8 @@ $$
 x_0 = 3.02\,\text{m}
 $$
 
-
 ====
-12
+14
 
 Wiederum wird vom Schnitt C–C ausgegangen und mit dem Faktor 
 $r_{C \rightarrow E} = \frac{0.7 \cdot q_d + q_{4,m}}{0.7 \cdot q_d} = 3.1$
@@ -254,7 +250,9 @@ x_0 = 3.02\,\text{m}
 $$
 
 ====
-13
+15
+
+Nachdem die massgebenden Schnittgrössen berechnet wurden, erfolgt nun die Bemessung der Bewehrung für die Platte. Zunächst wird die Mindestbewehrung berechnet: 
 
 $$
 f_{cd} = k_c \cdot f_{ck,0.95} \approx f_{ck,0.95} = 1.3 \cdot f_{cm} = 2.9\,\text{MPa}
@@ -296,11 +294,10 @@ $$
 m_{Rd,x} = a_s f_{sd} \left( d_x - \frac{a_s f_{sd}}{2 b f_{cd}} \right) = 32.0\,\text{kNm/m} \quad \text{(2./3. Lage)}
 $$
 
-
 ====
-14
+16
 
-Schnitt A–A
+Für Schnitt A–A ist die Mindestbewehrung ausreichend:
 
 $$
 m_d^+ = 6.1\,\text{kN} < m_{Rd,\min,x}
@@ -310,14 +307,9 @@ $$
 m_d^- = 7.3\,\text{kN} < m_{Rd,\min,x}
 $$
 
-$$
-\Rightarrow \text{Mindestbewehrung reicht aus.}
-$$
-
 ====
-15
-
-Schnitt C–C
+17
+In Schnitt C–C ist die Mindestbewehrung nicht ausreichend. Statt Durchmesser 10 mm wird Durchmesser 12 mm eingelegt. 
 
 $$
 m_d^+ = 39.9\,\text{kN} \Rightarrow a_{s,\text{erf}} \approx \frac{m_d^+}{f_{sd} \cdot 0.8h} = 478\,\text{mm}^2/\text{m}
@@ -328,29 +320,7 @@ $$
 $$
 
 ====
-16
-
-Schnitt B–B
-
-$$
-m_d^+ = 48.9\,\text{kN} \quad \text{Wahl: } \varnothing12@200, \quad m_{Rd} = 45.7\,\text{kN} \approx m_d^+ \sim \text{i.O.}
-$$
-
-$$
-m_d^- = 92.9\,\text{kN} \Rightarrow a_{s,\text{erf}} \approx \frac{m_d^-}{f_{sd} \cdot 0.8h} = 1112\,\text{mm}^2/\text{m}
-$$
-
-$$
-\text{Wahl: Zulagen } 5 \times \varnothing10 + 5 \times \varnothing16, \quad a_s = 1398\,\text{mm}^2/\text{m}
-$$
-
-$$
-d = h - c_{\text{nom}} - 12\,\text{mm} - 8\,\text{mm} = 190\,\text{mm}, \quad m_{Rd} = 101.8\,\text{kN} > m_d^-
-$$
-
-
-====
-17
+18
 
 Schnitt D–D
 
@@ -374,8 +344,11 @@ $$
 d = 204\,\text{mm}, \quad m_{Rd} = 78.6\,\text{kN} > m_d^+
 $$
 
+
+
+
 ====
-18
+19
 
 Schnitt E–E
 
@@ -399,9 +372,29 @@ $$
 \frac{x}{d} = 0.33 < 0.35 \Rightarrow \text{i.O. für sämtliche Schnitte!}
 $$
 
+====
+20
+
+Schnitt B–B
+
+$$
+m_d^+ = 48.9\,\text{kN} \quad \text{Wahl: } \varnothing12@200, \quad m_{Rd} = 45.7\,\text{kN} \approx m_d^+ \sim \text{i.O.}
+$$
+
+$$
+m_d^- = 92.9\,\text{kN} \Rightarrow a_{s,\text{erf}} \approx \frac{m_d^-}{f_{sd} \cdot 0.8h} = 1112\,\text{mm}^2/\text{m}
+$$
+
+$$
+\text{Wahl: Zulagen } 5 \times \varnothing10 + 5 \times \varnothing16, \quad a_s = 1398\,\text{mm}^2/\text{m}
+$$
+
+$$
+d = h - c_{\text{nom}} - 12\,\text{mm} - 8\,\text{mm} = 190\,\text{mm}, \quad m_{Rd} = 101.8\,\text{kN} > m_d^-
+$$
 
 ====
-19
+21
 
 Für die Querkrafttrag­sicherheit sind die Schnitte mit der größten Hauptquerkraft $\v_d$ in der Hauptrichtung $\varphi_0$ maßgebend.
 
@@ -455,8 +448,7 @@ $$
 NB: Zusätzlich wäre eine Durchstanzbewehrung im Stützenbereich (konzentrierte Lasteinleitung) zu führen.  
 Darauf wird hier verzichtet, näheres dazu in der Autographie 7.4 und Kolloquium 5.
 
-
 ====
-20
+22
 
 Hier sieht man die gesamte Bewehrung der Platte.
