@@ -122,7 +122,7 @@ Als Letztes werden die Strongbands 1 und 2 in y-Richtung betrachtet (Schnitte D-
 Die Schnitte A-A – E-E werden jetzt Schritt für Schritt durchgerechnet. Zuerst werden die Schnittkräfte aus Schnitt A-A mit der Kraftmethode ermittelt (siehe Musterlösung). Es handelt sich dabei um die elastischen Schnittgrössen, es wäre aber auch möglich, plastisch zu rechnen. Zunächst werden die 1m breiten Strongbands als Punktauflager modelliert, wobei folgende betragsmässig maximale Schnittgrössen resultieren: 
 
 
-$ m_d^+ = 6.1\,\text{kN} $ (in Feldmitte)
+$ m_d^+ = 6.1\,\text{kN} $ (in Feldmitte Test)
 
 $ m_d^- = -10.9\,\text{kN} $ (am Mittelauflager)
 
