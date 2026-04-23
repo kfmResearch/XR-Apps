@@ -20,3 +20,4 @@
 19,mesh_reinforcement_CC,Bewehrung CC,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1
 20,mesh_reinforcement_DD,Bewehrung DD,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
 21,mesh_reinforcement_EE,Bewehrung EE,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+22,mesh_base,Person,mesh,concrete,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
