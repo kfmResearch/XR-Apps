@@ -422,6 +422,9 @@ $$
 v_{0d} = \sqrt{v_{xd}^2 + v_{yd}^2} = 100.7\,\text{kN/m}
 $$
 
+====
+22
+
 Querkraftwiderstand einer Platte ohne Schubbewehrung:
 
 $$
@@ -449,6 +452,6 @@ NB: Zusätzlich wäre eine Durchstanzbewehrung im Stützenbereich (konzentrierte
 Darauf wird hier verzichtet, näheres dazu in der Autographie 7.4 und Kolloquium 5.
 
 ====
-22
+23
 
 Hier sieht man die gesamte Bewehrung der Platte.
