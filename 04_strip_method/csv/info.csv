@@ -21,4 +21,4 @@
 20,mesh_reinforcement_DD,Bewehrung DD,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
 21,mesh_reinforcement_EE,Bewehrung EE,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1
 22,mesh_base,Person,mesh,concrete,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
-23,mesh_shear_sections,Schnitte Querkraft,mesh,concrete,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+23,mesh_shear_sections,Schnitte Querkraft,mesh,red,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
