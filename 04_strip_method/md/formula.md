@@ -1,5 +1,6 @@
 00 
 
+Diese Beispiel bezieht sich auf Kolloquium 4 des Moduls Stahlbeton II. 
 Die Deckenplatte des in Bild 1 dargestellten Unterstellplatzes ist ausser durch ihre Eigenlast,
 mit einer $h_b = 200 \text{mm}$ dicken Erdauflast und einer Schneelast gemäss Norm SIA 261
 (Standort: Glarus, 550 m ü. M.) beansprucht. Die Platte weist eine Dicke von $h_P = 240 \text{mm}$,
@@ -11,25 +12,22 @@ Grösstkorn von Dmax = 32 mm verwendet werden, die Bewehrungsüberdeckung beträ
 ====
 01 
 
-Im Folgenden werden die Kennwerte der verwendeten Baumaterialien aufgezeigt.    
+Die folgenden Materialkennwerte werden verwendet:     
 
-Beton\
-C20/25\
-$f_{cd} = 13.5\,\text{MPa}$\
-$f_{ctm} = 2.2\,\text{GPa}$\
-$\tau_{cd} = 0.9\,\text{MPa}$\
-$D_{max} = 32\,\text{mm}$\
-$c_{nom} = 30\,\text{mm}$\
-\
-Bewehrung\
-B500B\
+Beton C20/25\\
+$f_{cd} = 13.5\,\text{MPa}$\\
+$f_{ctm} = 2.2\,\text{MPa}$\\
+$\tau_{cd} = 0.9\,\text{MPa}$\\
+$D_{max} = 32\,\text{mm}$\\
+$c_{nom} = 30\,\text{mm}$\\
+\\
+Bewehrungsstahl B500B\\
 $f_{sd} = 435\,\text{MPa}$
 
 ====
 02 
 
-Für den Lastabtrag zu den Stützen werden versteckte Unterzüge mit einer Breite von 1 m eingeführt (graue Flächen).
-Es kann frei gewählt werden, in welchem Verhältnis die Lasten abgetragen werden. In diesem Beispiel werden 70 % der Flächenlast in y-Richtung und 30 % in x-Richtung abgetragen.
+Für den Lastabtrag zu den Stützen werden versteckte Unterzüge mit einer Breite von 1 m eingeführt (grüne Flächen).
 
 Für die einfache Streifenmethode werden erst der Abtrag der Flächenlasten zu den Auflagern und Unterzügen berechnet (Schnitte A-A und C-C) und danach der Abtrag der Lasten der Unterzüge zu den Stützen berechnet (Schnitte B-B, D-D und E-E). 
 Um die erweiterte Streifenmethode aufzuzeigen, werden noch die Flächenlasten über den Stützen zu Punktlasten umgewandelt.  
@@ -85,9 +83,7 @@ Im Folgendem gibt es einen Überblick über den Kraftfluss für die einfache
 Streifenmethode. Wichtig ist, dass konsequent alle Kräfte in die Lager geleitet werden. Ein
 möglicher Abtrag wird in der Folge skizziert und anschliessend durchgerechnet.
 
-Als erstes wird die Belastung gemäss der gewählten Verteilung von 70% in y-
-Richtung und 30% in x-Richtung in das Auflager und die versteckten Unterzüge
-(Strongbands), die als indirekte Lager wirken, geleitet. 
+Es kann frei gewählt werden, in welchem Verhältnis die Lasten abgetragen werden. In diesem Beispiel werden 70 \% der Flächenlast in y-Richtung und 30 \% in x-Richtung abgetragen.
 
 ====
 05 
@@ -103,8 +99,8 @@ Hier gezeigt ist das statische System für den Lastabtrag in Schnitt C-C. Diese 
 ====
 07 
 
-In der gewählten Modellvorstellung liegt der Strongband 3 (x - Richtung) auf den
-Strongbands 1 und 2 auf. Auf ihn wirkt die Flächenlast gemäss dem Verteilschlüssel
+In der gewählten Modellvorstellung liegt das Strongband 3 (x - Richtung) auf den
+Strongbands 1 und 2 auf. Auf dieses wirkt die Flächenlast gemäss dem Verteilschlüssel
 ($0.3 \cdot q_{d}$) sowie die Auflagerkraft aus dem Schnitt C-C mit umgekehrtem Vorzeichen
 als Belastung: $q_c$.\
 
@@ -113,13 +109,13 @@ Die Auflagerkräfte dieses Strongbands werden als Belastung auf die Strongbands 
 ====
 08
 
-Als Letztes werden die Strongbands 1 und 2 in y-Richtung betrachtet (Schnitte D-D und E-E). Sie erfahren ihren Anteil der Flächenlast (0.7 $q_{d}$), sowie Auflagerkräfte aus den Schnitten A-A und B-B (Strongband 3).
+Als Letztes werden die Strongbands 1 und 2 in y-Richtung betrachtet (Schnitte D-D und E-E). Sie werden belastet durch ihren Anteil der Flächenlast (0.7 $q_{d}$), sowie die Auflagerkräfte aus den Schnitten A-A und B-B (Strongband 3).
 
 
 ====
 09
 
-Die Schnitte A-A – E-E werden jetzt Schritt für Schritt durchgerechnet. Zuerst werden die Schnittkräfte aus Schnitt A-A mit der Kraftmethode ermittelt (siehe Musterlösung). Es handelt sich dabei um die elastischen Schnittgrössen, es wäre aber auch möglich, plastisch zu rechnen. Zunächst werden die 1m breiten Strongbands als Punktauflager modelliert, wobei folgende betragsmässig maximale Schnittgrössen resultieren: 
+Die Schnitte A-A bis E-E werden jetzt schrittweise durchgerechnet. Zuerst werden die Schnittkräfte aus Schnitt A-A mit der Kraftmethode ermittelt (siehe Musterlösung Kolloquium 4, SB II). Es handelt sich dabei um die elastischen Schnittgrössen, es wäre aber auch möglich, plastisch zu rechnen. Zunächst werden die 1m breiten Strongbands als Punktauflager modelliert, wobei folgende betragsmässig maximale Schnittgrössen resultieren: 
 
 
 $ m_d^+ = 6.1\,\text{kN} $ (in Feldmitte)
@@ -252,7 +248,7 @@ $$
 ====
 15
 
-Nachdem die massgebenden Schnittgrössen berechnet wurden, erfolgt nun die Bemessung der Bewehrung für die Platte. Zunächst wird die Mindestbewehrung berechnet: 
+Nachdem die massgebenden Schnittgrössen berechnet wurden, erfolgt nun die Bemessung der Bewehrung für die Platte. Es ist zu beachten, dass im Rahmen der erweiterten Streifenmethode die Flächenlasten über den Stützen noch in Punktlasten umgerechnet werden müssen. Siehe dafür die Musterlösung von Kolloquium 4. Zunächst wird die Mindestbewehrung berechnet: 
 
 $$
 f_{cd} = k_c \cdot f_{ck,0.95} \approx f_{ck,0.95} = 1.3 \cdot f_{cm} = 2.9\,\text{MPa}
@@ -322,7 +318,7 @@ $$
 ====
 18
 
-Schnitt D–D
+Für Schnitt D–D ist die Mindestbewehrung im Feldbereich ausreichend, im Stützbereich wird eine Zulage bemessen. 
 
 $$
 m_d^- = 14.4\,\text{kN} < m_{Rd,\min,y} = 33.7\,\text{kN}, \quad \text{die Bewehrung muss am Plattenrand voll verankert sein.}
@@ -350,7 +346,7 @@ $$
 ====
 19
 
-Schnitt E–E
+Für Schnitt E–E werden sowohl im Feldbereich als auch über der Stütze Zulagen benötigt. 
 
 $$
 m_d^- = 34.4\,\text{kN}, \quad \text{Wahl: Zulagen } 5 \times \varnothing10 \rightarrow \varnothing10@100, \quad a_s = 780\,\text{mm}^2/\text{m}, \quad m_{Rd} = 65.7\,\text{kN} > m_d^-
@@ -375,7 +371,7 @@ $$
 ====
 20
 
-Schnitt B–B
+Für Schnitt B–B werden sowohl im Feldbereich als auch über der Stütze Zulagen benötigt. 
 
 $$
 m_d^+ = 48.9\,\text{kN} \quad \text{Wahl: } \varnothing12@200, \quad m_{Rd} = 45.7\,\text{kN} \approx m_d^+ \sim \text{i.O.}
@@ -454,4 +450,4 @@ Darauf wird hier verzichtet, näheres dazu in der Autographie 7.4 und Kolloquium
 ====
 23
 
-Hier sieht man die gesamte Bewehrung der Platte.
+Hier dargestellt ist die gesamte Bewehrung der Platte, die in diesem Beispiel bemessen wurde. Für die detaillierte Berechnung siehe die Musterlösung von Kolloquium 4. 
