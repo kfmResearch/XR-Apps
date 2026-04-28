@@ -22,4 +22,4 @@
 21,mesh_reinforcement_EE,Bewehrung EE,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
 22,mesh_base,Person,mesh,concrete,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 23,mesh_shear_sections,Schnitte Querkraft,mesh,red,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
-24,mesh_load_distribution,Lastverteilelemente,mesh,red_transparent,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+24,mesh_load_distribution,Lastverteilelemente,mesh,red_transparent,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
