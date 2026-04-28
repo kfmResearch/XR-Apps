@@ -248,6 +248,9 @@ $$
 ====
 15
 
+====
+16
+
 Nachdem die massgebenden Schnittgrössen berechnet wurden, erfolgt nun die Bemessung der Bewehrung für die Platte. Es ist zu beachten, dass im Rahmen der erweiterten Streifenmethode die Flächenlasten über den Stützen noch in Punktlasten umgerechnet werden müssen. Siehe dafür die Musterlösung von Kolloquium 4. Zunächst wird die Mindestbewehrung berechnet: 
 
 $$
@@ -291,7 +294,7 @@ m_{Rd,x} = a_s f_{sd} \left( d_x - \frac{a_s f_{sd}}{2 b f_{cd}} \right) = 32.0\
 $$
 
 ====
-16
+17
 
 Für Schnitt A–A ist die Mindestbewehrung ausreichend:
 
@@ -304,7 +307,7 @@ m_d^- = 7.3\,\text{kN} < m_{Rd,\min,x}
 $$
 
 ====
-17
+18
 In Schnitt C–C ist die Mindestbewehrung nicht ausreichend. Statt Durchmesser 10 mm wird Durchmesser 12 mm eingelegt. 
 
 $$
@@ -316,7 +319,7 @@ $$
 $$
 
 ====
-18
+19
 
 Für Schnitt D–D ist die Mindestbewehrung im Feldbereich ausreichend, im Stützbereich wird eine Zulage bemessen. 
 
@@ -340,11 +343,8 @@ $$
 d = 204\,\text{mm}, \quad m_{Rd} = 78.6\,\text{kN} > m_d^+
 $$
 
-
-
-
 ====
-19
+20
 
 Für Schnitt E–E werden sowohl im Feldbereich als auch über der Stütze Zulagen benötigt. 
 
@@ -369,7 +369,7 @@ $$
 $$
 
 ====
-20
+21
 
 Für Schnitt B–B werden sowohl im Feldbereich als auch über der Stütze Zulagen benötigt. 
 
@@ -390,7 +390,7 @@ d = h - c_{\text{nom}} - 12\,\text{mm} - 8\,\text{mm} = 190\,\text{mm}, \quad m_
 $$
 
 ====
-21
+22
 
 Für die Querkrafttrag­sicherheit sind die Schnitte mit der größten Hauptquerkraft $\v_d$ in der Hauptrichtung $\varphi_0$ maßgebend.
 
@@ -419,7 +419,7 @@ v_{0d} = \sqrt{v_{xd}^2 + v_{yd}^2} = 100.7\,\text{kN/m}
 $$
 
 ====
-22
+23
 
 Querkraftwiderstand einer Platte ohne Schubbewehrung:
 
@@ -448,6 +448,6 @@ NB: Zusätzlich wäre eine Durchstanzbewehrung im Stützenbereich (konzentrierte
 Darauf wird hier verzichtet, näheres dazu in der Autographie 7.4 und Kolloquium 5.
 
 ====
-23
+24
 
 Hier dargestellt ist die gesamte Bewehrung der Platte, die in diesem Beispiel bemessen wurde. Für die detaillierte Berechnung siehe die Musterlösung von Kolloquium 4. 
