@@ -248,10 +248,13 @@ $$
 ====
 15
 
+Für die erweiterte Streifenmethode werden die Flächenlasten $q_D$ und $q_E$ in Punktlasten umgewandelt. Dabei entstehen zusätzliche Momentenbeanspruchungen, welche mittels Verteilelementen abgeschätzt werden können.
+Den bisherigen Momenten im Stützenbereich sind die Momente $m_{u,m} = 0.034 Q_m = 9.4 \text{kN}$ und $m_{u,m}´ = Q_m/8 = 34.4 \text{kN}$ (Mittelstütze) bzw. , $m_{u,r} = 0.034 Q_r = 3.7 \text{kN}$ und $m_{u,r}´ = Q_r/8 = 14.4 \text{kN}$ (Randstütze) zu überlagern.
+
 ====
 16
 
-Nachdem die massgebenden Schnittgrössen berechnet wurden, erfolgt nun die Bemessung der Bewehrung für die Platte. Es ist zu beachten, dass im Rahmen der erweiterten Streifenmethode die Flächenlasten über den Stützen noch in Punktlasten umgerechnet werden müssen. Siehe dafür die Musterlösung von Kolloquium 4. Zunächst wird die Mindestbewehrung berechnet: 
+Nachdem die massgebenden Schnittgrössen berechnet wurden, erfolgt nun die Bemessung der Bewehrung für die Platte. Zunächst wird die Mindestbewehrung berechnet: 
 
 $$
 f_{cd} = k_c \cdot f_{ck,0.95} \approx f_{ck,0.95} = 1.3 \cdot f_{cm} = 2.9\,\text{MPa}
@@ -270,14 +273,6 @@ $$
 $$
 
 $$
-\text{1./4. Lage in y-Richtung}
-$$
-
-$$
-\text{2./3. Lage in x-Richtung}
-$$
-
-$$
 \text{Statische Höhe: } \quad d_y = h - c_{\text{nom}} - \varnothing/2 = 205\,\text{mm}
 $$
 
@@ -286,11 +281,11 @@ d_x = h - c_{\text{nom}} - \varnothing/2 = 195\,\text{mm}
 $$
 
 $$
-m_{Rd,y} = a_s f_{sd} \left( d_y - \frac{a_s f_{sd}}{2 b f_{cd}} \right) = 33.7\,\text{kNm/m} \quad \text{(1./4. Lage)}
+m_{Rd,y} = a_s f_{sd} \left( d_y - \frac{a_s f_{sd}}{2 b f_{cd}} \right) = 33.7\,\text{kNm/m} \quad \text{(1./4. Lage, y-Richtung)}
 $$
 
 $$
-m_{Rd,x} = a_s f_{sd} \left( d_x - \frac{a_s f_{sd}}{2 b f_{cd}} \right) = 32.0\,\text{kNm/m} \quad \text{(2./3. Lage)}
+m_{Rd,x} = a_s f_{sd} \left( d_x - \frac{a_s f_{sd}}{2 b f_{cd}} \right) = 32.0\,\text{kNm/m} \quad \text{(2./3. Lage, x-Richtung)}
 $$
 
 ====
