@@ -250,6 +250,11 @@ $$
 
 Für die erweiterte Streifenmethode werden die Flächenlasten $q_D$ und $q_E$ in Punktlasten umgewandelt. Dabei entstehen zusätzliche Momentenbeanspruchungen, welche mittels Verteilelementen abgeschätzt werden können.
 Den bisherigen Momenten im Stützenbereich sind die Momente $m_{u,m} = 0.034 Q_m = 9.4 \text{kN}$ und $m_{u,m}´ = Q_m/8 = 34.4 \text{kN}$ (Mittelstütze) bzw. , $m_{u,r} = 0.034 Q_r = 3.7 \text{kN}$ und $m_{u,r}´ = Q_r/8 = 14.4 \text{kN}$ (Randstütze) zu überlagern.
+Aus der Anwendung ergebens sich damit die folgenden massgebenden Schnittgrössen: 
+
+Schnitt D-D: $m_d^- = -14.4 \text{kN}$\\
+Schnitt E-E: $m_d^- = -34.4 \text{kN}$\\
+Schnitt B-B: $m_d^- = -92.9 \text{kN}$
 
 ====
 16
