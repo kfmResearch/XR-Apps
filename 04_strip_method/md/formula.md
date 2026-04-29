@@ -253,7 +253,9 @@ Den bisherigen Momenten im Stützenbereich sind die Momente $m_{u,m} = 0.034 Q_m
 Aus der Anwendung ergebens sich damit die folgenden massgebenden Schnittgrössen: 
 
 Schnitt D-D: $m_d^- = -14.4 \text{kN}$\\
+\\
 Schnitt E-E: $m_d^- = -34.4 \text{kN}$\\
+\\
 Schnitt B-B: $m_d^- = -92.9 \text{kN}$
 
 ====
