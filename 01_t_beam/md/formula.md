@@ -44,10 +44,10 @@ $$m_{Rd}^+ = a_s \cdot f_{sd} \cdot (d-\frac{a_s\cdot f_{sd}}{2\cdot f_{sd}}) = 
 
 $$m_{Rd,erf}^{-} = \left| m_{d,\text{tot}} \right| - m_{Rd}^{+} = 37.2 - 23.9 = 13.3\,\text{kNm/m}$$
 
-Bemerkung:\
-$m_{Rd}^- = m_{Rd}^+$, aber:\
+Bemerkung:\\
+$m_{Rd}^- = m_{Rd}^+$, aber:\\
 Die obere Querbewehrung muss neben dem negativen Moment auch den Querzug aus dem Schubanschluss aufnehmen\
-$\rightarrow$ Superposition der Kräfte ergibt erforderliche Bewehrung (siehe später)
+Superposition der Kräfte ergibt erforderliche Bewehrung (siehe später)
 
 
 ====
