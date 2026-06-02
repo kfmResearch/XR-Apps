@@ -22,3 +22,4 @@
 20,mesh_support,Umgebung ,mesh,concrete,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 21,mesh_reinforcement_wall_secondary,Konstruktive Bewehrung ,mesh,steel,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1
 22,mesh_wall_section,Wandabschnitt,mesh,transparent,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+23,text_force_internal_wall,Beschriftung Auflagerkräfte Wand,text,red,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
