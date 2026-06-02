@@ -1,6 +1,6 @@
 
 00
-Das dargestellte System bestehend aus Wandscheibe und Hohlkasten wird mit einer Einzellast $Q_{d} = 150 \text{kN}$ belastet.
+Dieses Beispiel bezieht sich auf Kolloquium 5 des Moduls Stahlbeton I. Das dargestellte System bestehend aus Wandscheibe und Hohlkasten wird mit einer Einzellast $Q_{d} = 150 \text{kN}$ belastet.
 
 ====
 01
