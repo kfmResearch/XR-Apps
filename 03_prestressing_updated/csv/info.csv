@@ -14,7 +14,7 @@ Index,layername ,layernamegerman,contenttype,material,Gesamtsystem,Querschnitt,R
 12,mesh_long_sectiion,Längsschnitt,mesh,concrete,0,0,0,0,0,1,1,0,0,0,0
 13,lines_neutral_axis,Schwerpunkt,lines,white,0,0,0,0,0,1,1,1,1,1,0
 14,mesh_slab,Platte,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0
-15,mesh_supports,Auflager,mesh,concrete,1,0,1,0,1,1,1,0,0,0,1
+15,mesh_supports,Auflager,mesh,concrete,0,0,1,0,1,1,1,0,0,0,0
 16,arrow_X1,X1,arrows,red,0,0,0,0,0,0,0,0,0,0,0
 17,arrow_coord_sys,Koordinatensystem,arrows,white,1,1,1,1,1,1,1,1,1,1,1
 18,mesh_hor_beams,Querträger,mesh,concrete,1,0,0,0,0,0,0,0,0,0,0

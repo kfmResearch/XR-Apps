@@ -1,6 +1,6 @@
 00
 
-Dieses Beispiel bezieht sich auf Hausübung 2 ders Moduls Stahlbeton II. Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
+Dieses Beispiel bezieht sich auf Hausübung 2 des Moduls Stahlbeton II. Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
 obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in x-Richtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
 
 ====
@@ -13,7 +13,7 @@ $f_{cd} = 20\,\text{MPa}$\\
 $E_c = 33.6\,\text{GPa}$\\
 \\
 Spannstahl Y1860\\
-$A_p = 19.150\,\text{mm}^2$\\
+$A_p = 19 \cdot 150\,\text{mm}^2$\\
 $f_{pk} = 1860\,\text{MPa}$\\
 $E_p = 195\,\text{GPa}$\\
 $c_{nom,p} = 50\,\text{mm}$
@@ -39,7 +39,7 @@ $b_{\text{eff}} = 2 \cdot b_{\text{eff},i} + b_w = 6.6\,\text{m}$\
 ====
 04
 
-Mit der effektiven Breite des Trägers, kann man die effektiven Querschnittswerte berechnen. In diesem Beispiel wird nur die effektive Breite des Innenfelds berücksichtigt, da die Steifigkeit der Randüberstände nicht benötigt wird für die Berechnung der Zwangsschnittgrößen. 
+Mit der effektiven Breite des Trägers können die effektiven Querschnittswerte berechnet werden. In diesem Beispiel wird nur die effektive Breite des Innenfelds berücksichtigt, da die Steifigkeit der Randüberstände für die Berechnung der Zwangsschnittgrößen nicht benötigt wird . 
 
 
 $A_b = h \cdot b_w + 2 \cdot t \cdot b_{\text{eff},i} = 2.544 \text{m}^2$\
