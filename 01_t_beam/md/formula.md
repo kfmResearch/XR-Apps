@@ -1,6 +1,6 @@
 
 00
-Dieses Beispiel stammt aus Kapitel 3.2 Stabtragwerke - Biegung (Folie 79 ff.) sowie Kapitel 3.4 Stabtragwerke Querkraft (Folie 42 ff.) der Vorlesung Stahlbeton I. Das dargestellte System besteht aus mehreren Plattenbalken nebeneinander. Diese überspannen als einfache Balken 16 m. 
+Dieses Beispiel stammt aus Kapitel 3.2 "Stabtragwerke - Biegung" (Folie 79 ff.) sowie Kapitel 3.4 "Stabtragwerke - Querkraft" (Folie 42 ff.) der Vorlesung Stahlbeton I. Das dargestellte System besteht aus mehreren Plattenbalken nebeneinander. Diese überspannen als einfache Balken 16 m. 
 
 Baustoffe: 
 $$\text{Beton C25/30} \rightarrow f_{cd} = 16.5 \text{ MPa}$$
