@@ -1,6 +1,6 @@
 00
 
-Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
+Dieses Beispiel bezieht sich auf Hausübung 2 ders Moduls Stahlbeton II. Das Dach einer Bushaltestelle mit einer Grundrissfläche von 20 x 35 m ist als Platte mit
 obenliegenden in y-Richtung verlaufenden Querträgern und einem obenliegenden in x-Richtung verlaufenden vorgespannten Hauptträger ausgebildet. Hauptträger und Stützen bilden zusammen einen über 20 m gespannten Zweigelenkrahmen mit beidseitigen Randüberständen von 7.5 m. 
 
 ====
